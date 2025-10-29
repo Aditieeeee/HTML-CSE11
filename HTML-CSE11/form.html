@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <!-- <form action ="./" name="biodata" target ="_blank" method="GET" </form>
+    <fieldset>
+      <legend>Biodata 
+      </legend> -->
+
+      <!-- required mandatory field to fill
+        autofocus cursor blink on that field
+        placeholder : hint text in input field
+        email type : it will check for @ and .com  we dont take text 
+        text is used for any type if text
+        password : it will show * instead of text
+        date : it will show calender to select date
+        number : it will only take number
+        tel : no. 0 to 9 ho deafult for no. , 10 se zyada entry pe error aayegi
+        address : always by textarea ,text area se rows and columns space introduce hoti hai
+
+        -->
+        <label input ="name"> name    </label>               
+      <input type="text" id="name" name="name" placeholder="enter your name" required autofocus > <br> <br>
+      <label input ="password">   password  </label>
+     <input type="password" id="pass" name="pass" placeholder ="enter your password" required> <br> <br>
+     <label input ="dob">DOB    </label>
+     <input type="date" id ="dob" name="enter dob" required> <br> <br>
+     <label input ="email"> email    </label>
+    <input type ="email" id ="email" name="enter email" required> <br> <br>
+<label input ="tel" ></label>phone no. </label>
+<input type="tel" id ="tel" name="enter phone no." placeholder="enter phone no." required> <br> <br>
+<textarea name="text" id ="add" cols="30" rows="10" placeholder="enter your address" required></textarea> <br> <br>\
+gender"
+<label type="gender " > gender    </label>
+<input type ="radio" id="male" name="gender">     
+                                           <!-- radsio for buttons to choose < only selelct one at a time  -->
+<input type ="radio" id="female" name="gender">
+                                          <!-- gender is used in name= -->
+
+<label for ="check"> vehicles u have </label> 
+<input type ="checkbox " id="check" name ="vehicle1" value="bike"> 
+<input type ="checkbox " id="check" name ="vehicle2" value="car" checked> 
+<br
+> <br>
+<!-- <select name ="select" id="select"></select>
+<optgroup label="programming">
+<option value="c++">c++</option>
+<optipon value ="python">python</optipon>
+<option value="java">java</option> -->
+<br> <br> 
+<label for ="url" >URL</label> 
+<input type ="url" id ="url" name="url" placeholder="enter your web address" required>
+
+<br> <br>
+<label for ="file" >file upload</label>
+<input type ="file" id="file" name="file" required>
+
+<label for ="attempt" >attempt  </label>
+<input type="number" id="attempt " name="attempt" min="1" max="10" required>
+<br> <br>
+
+<label for ="appoint" >appointment  </label>
+<input type="time" id="appoint" name ="appoint" required>
+<br> <br>
+
+<input type="submit" >
+<input type="reset">
+
+</fieldset>
+</form>
+
+  <!-- action : to generate resopnse page
+   name: js to use
+   target : same page or new page
+   THEORY PADH LENA
+   legend :caption
+   output: to give output agr phele se koi calculation hai
+    INPUT VALIDATION
+   pattern : regular expression kis type ka rexpression chahiye 
+   step: 2 or kisi no. ke mutiple ke no. generate kare
+   novalidate: no validation hoga form me ,USE: in case of deafault validation (required)
+   
+   
+    -->
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
